@@ -1,0 +1,197 @@
+body {
+    background-color: #000000;
+
+}
+
+
+.div1 {
+    width: 100%;
+    height: 680px;
+    // background-color: #404975;
+    background-image: url('../images/Hero_Model\ 1.png');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: 670px;
+
+    .color-img-box {
+        width: 100%;
+        height: 680px;
+        background-image: url('../images/Ellipse\ 2.png');
+        background-size: 100% 100%;
+
+
+        .blue-img-box {
+            width: 100%;
+            height: 680px;
+            background-image: url('../images/Ellipse\ 3.png');
+            background-size: 59% 100%;
+            background-repeat: no-repeat;
+        }
+
+
+        .nav-box {
+
+            width: 100%;
+            height: 120px;
+
+            // background-color: #ec5555;
+            .ul1 {
+                width: 71%;
+                height: 50px;
+                // background-color: #0B0C11;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: absolute;
+                top: 30px;
+                left: 28%;
+
+
+
+
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(253, 253, 253);
+                        font-size: 22px;
+                        z-index: 2;
+                    }
+                }
+
+
+
+
+
+                .nav-icon {
+                    width: 6%;
+                    height: 26px;
+                    background-color: rgb(0, 0, 0);
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-radius: 9px;
+                    z-index: 2;
+
+                    .fa-moon {
+                        color: #dfbd16;
+                        z-index: 2;
+                    }
+
+                    .fa-sun {
+                        color: gray;
+                        z-index: 2;
+
+                    }
+                }
+
+
+
+                .div-icon {
+                    z-index: 2;
+
+                    .fa-brands {
+                        color: wheat;
+                        font-size: 22px;
+                        z-index: 2;
+                    }
+                }
+
+                .button1 {
+                    width: 9%;
+                    height: 35px;
+                    border: none;
+                    font-size: 13px;
+                    border: 1px solid rgb(219, 12, 12);
+                    border-radius: 11px;
+                    color: rgb(226, 11, 11);
+                    background-color: #0A0C10;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 2;
+
+                    &:hover {
+                        border: #0A0C10;
+                        color: white;
+                        z-index: 2;
+                    }
+                }
+
+
+
+
+
+            }
+        }
+
+
+
+        .text-box {
+width: 30%;
+height: 450px;
+// background-color: red;
+margin-left: 110px;
+margin-top: 70px;
+            h1 {
+                color: white;
+                font-size: 55px;
+                font-weight: 600;
+
+            }
+            p {
+                font-size: 22px;
+                color: #767c86;
+                margin-top: 30px;
+            }
+
+            
+        .nav-button {
+            margin-top: 40px;
+
+            .div-button-1 {
+                height: 39px;
+                width: 22%;
+                color: aliceblue;
+                border: none;
+                border: 1px solid #F14A16;
+                border-radius: 15px;
+                background-color: #F14A16;
+
+                &:hover{
+                    color: black;
+                }
+
+            }
+
+            .div-button-2 {
+                height: 39px;
+                width: 22%;
+                color: aliceblue;
+                border: none;
+                border: 1px solid #F14A16;
+                border-radius: 15px;
+                background-color: #0B0C11;
+                margin-left: 15px;
+                &:hover{
+                    border: none;
+                }
+
+            }
+        }
+
+    
+        }
+
+
+    }
+}
+
+
+
+
+
+
+
